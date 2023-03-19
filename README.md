@@ -1,4 +1,31 @@
-# rescue
+# Watney Rescue
+### FEATURES
+WatneyRescue.java is a Java program that simulates a rescue mission for a stranded astronaut named Mark Watney. The program uses a grid system to represent the Martian surface and includes various obstacles such as boulders, craters, and sand traps. The goal of the program is to navigate a rover to the location of the stranded astronaut, pick him up, and bring him back to the base camp.
+
+### Installation
+To run this program, you will need to have Java installed on your computer. If you don't have Java installed, you can download and install it from the following link:
+
+-  [Download Java](https://www.oracle.com/java/technologies/downloads/#java16)
+
+Once you have Java installed, you can download or clone this repository using the following command:
+
+```ruby
+git clone https://github.com/etsond/rescue.git
+```
+## Usage
+
+To use this program, open a terminal or command prompt and navigate to the directory where you downloaded or cloned this repository. Then navigate to the rescue directory and run the following command:
+```ruby
+javac WatneyRescue.java
+```
+This will compile the program and create a class file called WatneyRescue.class. To run the program, enter the following command:
+```ruby
+java WatneyRescue
+```
+The program will prompt you to enter the size of the grid and the location of the obstacles. Once you have entered this information, the program will simulate the rescue mission and output the path taken by the rover to reach the stranded astronaut.
+
+## License
+This program is licensed under the MIT License. You are free to use, modify, and distribute this program for any purpose.
 
 Sample Run 1
 
